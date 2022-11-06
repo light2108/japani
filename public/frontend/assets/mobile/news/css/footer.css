@@ -1,0 +1,198 @@
+.text_red {
+    color: #dc0000;
+  }
+  
+  .box-hotline-f .box-f1 {
+    margin-bottom: 30px;
+  }
+  
+  .title-info {
+    white-space: pre;
+    font-family: "sf pro display bold", sans-serif;
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.4;
+    text-transform: uppercase;
+  }
+  
+  .info-company .des {
+    margin-bottom: 10px;
+    display: flex;
+    flex: 2;
+  }
+  
+  .strong {
+    font-weight: 700;
+  }
+  
+  .info-company .material-icons {
+    color: #2367ff;
+    margin-right: 8px;
+    width: 24px;
+  }
+  
+  .list-support li {
+    margin-bottom: 10px;
+  }
+  
+  .list-support > .title-info {
+    margin-top: 15px;
+  }
+  
+  .list-support li a {
+    overflow: visible;
+    font-family: "sf pro display", sans-serif;
+    color: #8a8a8f;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 22px;
+  }
+  
+  .time-des {
+    font-size: 14px;
+    font-family: "sf pro display", sans-serif;
+    color: #a1a1a7;
+  }
+  
+  .item_payment:last-child {
+    margin-right: 0;
+  }
+  
+  .list_chungnhan {
+    display: flex;
+    flex: 2;
+  }
+  
+  .item_chungnhan {
+    background-color: #ffffff;
+    border-radius: 4px;
+    margin-right: 8px;
+  }
+  
+  .item_chungnhan:last-child {
+    margin-right: 0;
+  }
+  
+  .item_chungnhan .img_chungnhan {
+    width: 131px;
+    height: 42px;
+    background-color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .list-support li a.text_chinhsach {
+    overflow: visible;
+    white-space: pre;
+    font-family: "sf pro display", sans-serif;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 22px;
+  }
+  
+  .list-support ul {
+    margin-bottom: 15px;
+  }
+  
+  .link_camnang span.material-icons {
+    color: #ffb700;
+  }
+  
+  .list-support li.link_camnang a {
+    color: #2367ff;
+    font-family: "sf pro display medium", sans-serif;
+    overflow: visible;
+    line-height: 1.6;
+  }
+  
+  footer {
+    margin-top: 30px;
+    background-color: #fff;
+  }
+  
+  footer .bottom-footer > div {
+    text-align: center;
+  }
+  
+  footer .bottom-footer p {
+    font-family: "sf pro display", sans-serif;
+    color: #3b4859;
+    font-size: 14px;
+    line-height: 1.5;
+    border-top: 1px solid #d9d9d9;
+    padding-top: 12px;
+    padding-bottom: 15px;
+  }
+  
+  .socials-f {
+    display: flex;
+    flex: 3;
+    margin-bottom: 15px;
+  }
+  
+  .socials-f li {
+    width: 36px;
+  }
+  
+  .socials-f li:not(:first-child) {
+    margin-left: 8px;
+  }
+  
+  .box-f2-custom {
+    margin-bottom: 10px;
+  }
+  
+  .footer-app-item {
+      width: 100%;
+  }
+  
+  .footer-app-image {
+      width: 131px;
+  }
+  
+  .footer-qr-app {
+      display: flex;
+      align-items: center;
+  }
+  
+  .footer-qr-wrapper {
+      margin: 0;
+      flex-shrink: 0;
+  }
+  
+  .footer-qr-image {
+      width: 131px;
+  }
+  
+  .transport-logo,
+  .payment-logo {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0;
+    align-items: center;
+    gap: 5px;
+    grid-auto-rows: 1fr;
+  }
+  
+  .payment-logo {
+    grid-auto-rows: minmax(42px, 1fr);
+  }
+  
+  .transport-logo-child,
+  .payment-logo-child {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+  }
+  
+  .transport-logo-image,
+  .payment-logo-image {
+    max-width: 90%;
+  }
+  

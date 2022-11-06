@@ -1,0 +1,140 @@
+.card {
+    box-shadow: -1px 1px 4px 0px rgba(137, 152, 172, 0.5);
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: .25rem;
+    margin-bottom: 10px;
+}
+
+.card .card-header {
+    padding: 13px 10px 10px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #F0F3F7;
+}
+
+.card .card-header h3 {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 4.5vw;
+}
+
+.card .card-body {
+    padding: 10px;
+}
+
+[class^="ti-"],
+[class*=" ti-"] {
+    /*font-family: 'themify';*/
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ti-minus:before {
+    content: "-";
+}
+
+.ti-plus:before {
+    content: "+";
+}
+
+.box-gift {
+    position: relative;
+}
+
+.box-gift>.gift-icon {
+    width: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 6px;
+}
+
+.custom-gift-icon {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 50%;
+    box-shadow: -1px 1px 4px 0px rgba(137, 152, 172, 0.5);
+    left: 0;
+    bottom: 6px;
+    text-align: center;
+}
+
+.custom-gift-icon .gift-icon {
+    width: 20px;
+    margin-top: calc(50% - 10px);
+}
+
+.box-quantity {
+    display: flex;
+    align-items: center;
+    margin-right: 23px;
+}
+
+.box-quantity button {
+    background-color: #bb0029;
+    border: transparent;
+    padding: 0 0;
+    border-radius: 100% !important;
+    color: #8998AC;
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-quantity .txtNumPro {
+    height: 26px;
+    width: 59px;
+    border-radius: 18px;
+    border: 1px solid #bb0029;
+    text-align: center;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: #333942;
+}
+
+body.popup-show {
+    overflow: hidden;
+}
+
+.item .box-item .box-img {
+    position: relative;
+}
+
+.item .box-item .box-img .block-sale {
+    padding: 5px;
+    padding-bottom: 0;
+    text-align: right;
+    padding-left: 0;
+    width: 10vw;
+    height: 10vw;
+    right: 0;
+}
+
+.item .box-item .box-img .block-sale .sale {
+    width: 9vw;
+    height: 9vw;
+    top: 4px;
+    right: 4px;
+    font-size: 2.2vw;
+    font-weight: 500;
+}
+
+/*# sourceMappingURL=global.css.map */
